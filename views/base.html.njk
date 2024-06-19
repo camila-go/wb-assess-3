@@ -1,0 +1,28 @@
+<!-- This has been left intentionally empty -->
+<!-- base.html.njk -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}Default Title{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <h1>Register below to see our content</h1>
+        <nav>
+            <ul>
+                <li><a href="/top-fossils">Top Fossils</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fossil App</p>
+    </footer>
+</body>
+</html>
